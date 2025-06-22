@@ -1,17 +1,5 @@
-# Core Flask dependencies
-Flask==2.3.3
-Werkzeug==2.3.7
-
-# Machine Learning dependencies
-tensorflow==2.19.0
+Flask
+tensorflow-cpu
 numpy
-
-# Image processing
-Pillow==10.0.1
-
-# Production server
-gunicorn==21.2.0
-
-# Additional utilities (optional but recommended)
-python-dotenv==1.0.0  # For environment variables
-flask-cors==4.0.0     # If you need CORS support for API calls
+Pillow
+gunicorn
